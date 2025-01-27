@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .img{
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-image: url(./image.png);
+} */
+.ahref{
+    text-decoration: none;
+}
+
+.star_main i{
+    color: orange;
+}
+
+
+.card-bodyy i{
+    color: rgb(134, 235, 235);
+}
+
+
+.card1{
+background-color:white;
+
+padding: 20px 20px 20px 20px;
+}
+.carddd i{
+    background-color: green;
+    border-radius: 50%;
+
+}
+#i{
+    background-color: rgb(117, 117, 117);
+}
+
+
+
+
+
+.faqq{
+    background-color: #FAFAFA;
+}
+
+.button2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.carddd{
+    border: 1px solid gray;
+}
+.pricing_title p{
+    width: 19%;
+    margin: 0 auto;
+}
+.carddd h1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+#alohida_card{
+background-color: black;
+
+}
+.button2 button{
+    width: 80%;
+    margin-top:10% 0;
+    height: 5vh;
+    background-color: blue;
+border: none;
+}
+
+.carddd a{
+    text-decoration: none;
+    display: flex;
+
+    margin: 5% 0;
+}
+
+.carddd{
+    border-radius: 15px;
+}
+.imgg{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+ .baner_titleh1{
+    font-size: 60px;
+   
+} 
+.carddd{
+    width: 30%;
+}
+
+
+.imgd{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./image.png);
+}
+
+
+
+.footer-title a{
+    text-decoration: none;
+    color: black;
+}
+.footer-title ul{
+    list-style-type: none;
+}
+
+@media(max-width:836px){
+    .baner_title h1{
+        font-size: 20px;
+
+    }
+    .cardlarr{
+        flex-direction: column !important;
+    }
+ .carddd{
+    width: 100%;
+    margin: 5% 0;
+ 
+ }
+ .button{
+        display: flex;
+        width: 70%;
+         flex-direction: column !important;
+    }
+    .baner_titlep{
+        font-size: 10px;
+    }
+  .title_p{
+    font-size: 10px;
+  }
+}
+
+@media(max-width:1369px){
+    .pricing_title p{
+   font-size: 7px;
+    }
+
+}
+
+@media(max-width:920px){
+    .cardlarr{
+    background-color: #FAFAFA;
+     display: grid;
+}
+.pricing_title p{
+    width: 40%;
+}
+}
+
+
+
+@media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+}  
+
+
+@media (max-width: 768px) {
+    .futer_main {
+flex-direction: column;
+    }}  
+
+
+
+    @media(max-width:565px){
+        .card-body h5{
+            font-size: 15px;
+ 
+        }
+        .baner_title p{
+            font-size: 6px;
+        }
+        .boxtitle{
+            font-size: 10px;
+        }
+        .continer_title{
+            flex-direction: column !important;
+        }
+        .imgd{
+            background-size: cover;
+            width: 100%;
+            object-fit: cover;
+        background-image: url(./image\ copy\ 2.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        }
+    }
+    @media(max-width:416px){
+        .buttonn{
+        flex-direction: column !important;
+           
+        }
+    }

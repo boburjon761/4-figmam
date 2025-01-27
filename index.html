@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  <title>Physionic</title>
+</head>
+<body>
+  <div class="imgs">
+  <div class="imgd">
+  <div class="body_man" style=" display: flex;align-items: center;justify-content: center;">
+    <nav class="navbar navbar-expand-lg" style="width: 71%;">
+      <div class="container-fluid">
+        <a class="navbar-brand " style="color: aliceblue;" href="#">Physionic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="#">Contact</a>
+            </li>
+
+
+
+           
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true"></a>
+            </li>
+          </ul>
+
+
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Get Quote Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" style="margin: 0 auto; " id="exampleModalLabel">Book Appointment</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">name*</label>
+                      <input type="email" class="form-control" value="full name*" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">amail adress*</label>
+                      <input type="password" class="form-control" value="example@gmail.com" id="exampleInputPassword1">
+                    </div>
+
+
+
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Departement *</label>
+                        <input type="email" class="form-control" value="Please Select  " id="exampleInputEmail1"
+                          aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"></div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Time *</label>
+                        <input type="password" class="form-control" value="4:00 Available" id="exampleInputPassword1">
+                      </div>
+                </div>
+
+                </form>
+
+
+                </form>
+                <button type="button" class="btn btn-primary mb-2 " style="height: 5vh;">Book Appointment</button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+  
+  </nav>
+</div>
+
+
+
+
+  <div class="baner d-flex justify-content-center" style="margin: 5% 0;">
+    <div class="baner_main  justify-content- space-between "
+      style="width: 71%; display: flex; justify-content: space-between;">
+      <div class="baner_title mt-5 mb-5">
+        <h1 class="baner_titleh1 h1  text " style=" margin-top: 20%;  width: 60%; color: #FAFAFA; ">Meet the Best Hospital</h1>
+        <p class="baner_titlep p " style="width: 60%; margin: 3% 0;color: #FAFAFA;">We know how large objects will act,
+          but things on a small scale.</p>
+          <div class="button">
+        <div class="btn-group" role="group" aria-label="Basic  toggle button group">
+          <input type="" class="btn-check" name="btn" id="btn" autocomplete="off" checked>
+          <label class="btn bg-primary" for="btn" id="label " style="color: #FAFAFA;">Get Quote Now</label>
+        </div>
+        
+          <input type="" class="btn-check w-10"  id="buttonn" name="btn" id="btn" autocomplete="off">
+          <label class="btn btn-outline-primar" style="border-color: rgb(117, 117, 117); color: #FAFAFA;" for="btn"> Learn More</label>
+        </div>
+      </div>
+     
+      <div class="baner_img mt-5 mb-5">
+        <img src="./istockphoto-1287582736-612x612.jpg" alt="">
+      </div>
+
+
+<div class="email" style=" ">
+  <div class="email_main">
+    <div class="email_title bg-white" style="width: 100%; margin-top: 5%; border-radius: 2% ; border: none;">
+      <form>
+        <h3 class="h111 " style=" display: flex;align-items: center;justify-content: center;">Book Appointment</h3>
+        <div class="mb-3" style="width: 90%; margin: 0 auto;">
+          <label for="exampleInputEmail1" class="form-label">name *</label>
+          <input type="name" value="Full Name * " class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3" style="width: 90%; margin: 0 auto;">
+          <label for="exampleInputPassword1" class="form-label">Email address *</label>
+          <input type="email adress" value="example@gmail.com " class="form-control" id="exampleInputPassword1">
+        </div>
+      </form><form>
+        <div class="mb-3" style="width: 90%; margin: 0 auto;">
+          <label for="exampleInputEmail1" class="form-label">Departement *</label>
+          <input type="email" value="Please Select " class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3" style="width: 90%; margin: 0 auto;">
+          <label for="exampleInputPassword1" class="form-label">Time *</label>
+          <input type="Time *" value="4:00 Available" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="buttont " style="display: flex;align-items: center;justify-content: center; ">
+        <button type="submit" class="btn btn-primary" value="Full Name * " style="width: 90%; display: flex; align-items: center; margin: 10% 0; height: 4vh;">Book Appointment</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+    </div>
+  </div> 
+</div>
+</div>
+
+
+
+
+<div class="baner" style="margin: 5% 0; ">
+  <div class="baner_main">
+    <div class="baner_title">
+      <h1 class="baner_text" style="display: flex;align-items: center;justify-content: center;" >Leading Medicine</h1>
+      <p class="body_title"  style="display: flex;align-items: center;justify-content: center; color: rgb(77, 75, 75);">Problems trying to resolve the conflict between<br> the two major realms of Classical physics: Newtonian mechanics</p>
+       
+    </div>
+    <div class="cards " style="width: 100%; display: flex;align-items: center;justify-content: center; margin: 5% 0;">
+    <div class="row  " style="width:75%;">
+      <div class="col">
+        <div class="card">
+          <img src="./imges/flex-row (1).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">-  The best products start <br>
+              with Figma<br>-  Design with real data<br> - Lightning fast prototyping <br>- Fastest way to organize<br>-  Work at the speed of thought.</p>
+            <a href="#" class="ahref">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./imges/flex-row (1).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">-  The best products start <br>
+              with Figma<br>-  Design with real data<br> - Lightning fast prototyping <br>- Fastest way to organize<br>-  Work at the speed of thought.</p>
+            <a href="#" class="ahref">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./imges/flex-row (1).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">-  The best products start <br>
+              with Figma<br>-  Design with real data<br> - Lightning fast prototyping <br>- Fastest way to organize<br>-  Work at the speed of thought.</p>
+            <a href="#" class="ahref">Learn More</a>
+          </div>
+        </div>
+      </div>
+    
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="box" style="">
+  <div class="box_main" >
+    <div class="box_titl">
+      <h1 class="box_text" style="margin-top: 5%; display: flex;align-items: center;justify-content: center;" >Leading Medicine</h1>
+      <p class="boxtitle"  style="display: flex;align-items: center;justify-content: center;">Problems trying to resolve the conflict between<br> the two major realms of Classical physics: Newtonian mechanics</p>
+       
+    </div>
+    <div class="cardss  " style="width: 100%; display: flex;align-items: center;justify-content: center; margin: 5% 0;">
+    <div class="row " style="width:75%; margin-bottom: 5% ;">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <div class="star_main">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+     
+          </div>
+            <p class="card-text mt-4 mb-3">Slate helps you see how many 
+              more days you need to work to 
+              reach your financial goal.</p>
+              <img src="./imges/media circle-box xs-circle (1).png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <div class="star_main">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+          </div>
+            <p class="card-text mt-4 mb-3">Slate helps you see how many 
+              more days you need to work to 
+              reach your financial goal.</p>
+              <img src="./imges/media circle-box xs-circle (1).png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <div class="star_main">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+          </div>
+            <p class="card-text mt-4 mb-3">Slate helps you see how many 
+              more days you need to work to 
+              reach your financial goal.</p>
+            <img src="./imges/media circle-box xs-circle (2).png" alt="">
+          </div>
+        </div>
+      </div>
+    
+      </div>
+    </div>
+    </div>
+  </div>
+
+<div class="faqq" style="">
+<div class="faq">
+  <div class="faq_main">
+    <div class="faq_title">
+      <h1 class="faq_h1" style="display: flex;justify-content: center; padding: 30px;">FAQ</h1>
+      <p class="faq_p" style="display: flex;justify-content: center; color: rgb(83, 83, 83);">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+    </div>
+    </div>
+  </div>
+  <div class="faq_card" style="width: 100%;  display: flex;align-items: center;justify-content: center; margin: 5% 0;">
+    <div class="faq_main" style="width: 75%;  display: flex; align-items: center; justify-content: space-between;">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="coll">
+          <div class="card1 h-100">
+            <div class="card-bodyy">
+              <h6 class="card-title"> <i class="fa-solid fa-chevron-right"></i> the quick fox jumps over the 
+                lazy dog</h6>
+              <p class="card-text" style="color: rgb(56, 54, 54);">Things on a very small scale behave like </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="coll">
+          <div class="card1 h-100">
+
+            <div class="card-bodyy">
+              <h6 class="card-title"><i class="fa-solid fa-chevron-right"></i> the quick fox jumps over the 
+                lazy dog</h6>
+              <p class="card-text"style="color: rgb(56, 54, 54);"> Things on a very small scale behave like</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="coll">
+          <div class="card1 h-100">
+            <div class="card-bodyy">
+              <h6 class="card-title" style=""><i class="fa-solid fa-chevron-right"></i> the quick fox jumps over the 
+                lazy dog</h6>
+              <p class="card-text"style="color: rgb(56, 54, 54);">Things on a very small scale behave like</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  
+  <div class="faq_card" style="width: 100%;  display: flex;align-items: center;justify-content: center; margin: 5% 0;">
+    <div class="faq_main" style="width: 75%;  display: flex; align-items: center; justify-content: space-between;">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="coll">
+          <div class="card1 h-100">
+            <div class="card-bodyy">
+              <h6 class="card-title"><i class="fa-solid fa-chevron-right"></i> the quick fox jumps over the 
+                lazy dog</h6>
+              <p class="card-text" style=" color: rgb(65, 64, 64);">Things on a very small scale behave like </p>
+            </div>
+          </div>
+        </div>
+        <div class="coll">
+          <div class="card1 h-100">
+
+            <div class="card-bodyy">
+              <h6 class="card-title" style=""><i class="fa-solid fa-chevron-right"></i> the quick fox jumps over the 
+                lazy dog</h6>
+              <p class="card-text" style="color: rgb(56, 54, 54);">Things on a very small scale behave like</p>
+            </div>
+          </div>
+        </div>
+        <div class="coll">
+          <div class="card1 h-100">
+            <div class="card-bodyy">
+              <h6 class="card-title"><i class="fa-solid fa-chevron-right"></i> the quick fox jumps over the 
+                lazy dog</h6>
+              <p class="card-text" style="color: rgb(56, 54, 54);">Things on a very small scale behave like</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  <div class="faq_card" id="haha" style="width: 100%; display: flex;align-items: center;justify-content: center; margin: 5% 0;">
+    <div class="faq_main" style="width: 75%;  display: flex; align-items: center; justify-content: space-between;">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="coll">
+          <div class="card1 h-100">
+            <div class="card-bodyy">
+              <h6 class="card-title"><i class="fa-solid fa-chevron-right"></i> the quick fox jumps over the 
+                lazy dog</h6>
+              <p class="card-text" style="color: rgb(56, 54, 54);">Things on a very small scale behave like </p>
+            </div>
+          </div>
+        </div>
+        <div class="coll">
+          <div class="card1 h-100">
+
+            <div class="card-bodyy">
+              <h6 class="card-title"><i class="fa-solid fa-chevron-right"></i> the quick fox jumps over the 
+                lazy dog</h6>
+              <p class="card-text" style="color: rgb(56, 54, 54);">Things on a very small scale behave like</p>
+            </div>
+          </div>
+        </div>
+        <div class="coll">
+          <div class="card1 h-100">
+            <div class="card-bodyy">
+              <i class="fa-solid fa-chevron-right"></i> 
+              <h6 class="card-title">the quick fox jumps over the 
+                lazy dog</h6>
+              <p class="card-text" style="color: rgb(56, 54, 54);">Things on a very small scale behave like</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="pricing"  style="">
+  <div class="pricing_main" style="margin:;">
+    <div class="pricing_title" style="margin: 0 auto;">
+      <h1 class="h11111" style="display: flex;align-items: center; justify-content: center;">Pricing</h1>
+      <p class="jkn" style="display: flex;align-items: center;justify-content: center; color: rgb(77, 77, 77); ">Problems trying to resolve the conflict between 
+        the two major realms of Classical physics: Newtonian mechanics  </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="container py-5"  style="">
+  <div class="row justify-content-center">
+    <div class="l3-talik" style=" display: flex; align-items: center; justify-content: center;">
+    <div class="col" style="width: 30%; ">
+      <div class="card  text-center"  style="border-color:#23A6F0; ">
+        <div class="card-header bg-white border-0">
+          <h5 class="fw-bold" style="margin-top: 5% ;">FREE</h5>
+          <p class="text-muted" style="width: 40% ; margin: 0 auto;">Organize across all apps by hand</p>
+        </div>
+        <div class="card-body">
+<img src="./imges/price.png" alt="">
+          <ul class="list-unstyled mb-4">
+            <li><i class="fa-solid fa-circle-check" style="color:green;"></i>  Unlimited product updates</li>
+            <li><i class="fa-solid fa-circle-check" style="color:green;"></i> Unlimited product updates</li>
+            <li><i class="fa-solid fa-circle-check" style="color:green;"></i> Unlimited product updates</li>
+            <li><i class="fa-solid fa-circle-check" style="color:grey;"></i> 1GB Cloud storage</li>
+            <li><i class="fa-solid fa-circle-check" style="color:grey;"></i> Email and community support</li>
+          </ul>
+          <a href="#" class="btn btn-primary" style="width: 90%; background-color: #23A6F0 ; border: none; margin:7% 0 ;">Try for free</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col " style="width: 30%;">
+      <div class="card text-center  text-white" style="background-color: #252B42;">
+        <div class="card-header border-0">
+          <h5 class="fw-bold" style="margin-top: 15%;">STANDARD</h5>
+          <p class="text-light" style="width: 40% ; margin: 0 auto;">Organize across all apps by hand</p>
+        </div>
+        <div class="card-body">
+          <img src="./imges/price (1).png" alt="">
+          <ul class="list-unstyled mb-4">
+            <li><i class="fa-solid fa-circle-check" style="color:green;"></i> Unlimited product updates</li>
+            <li><i class="fa-solid fa-circle-check" style="color:green;"></i> Unlimited product updates</li>
+            <li><i class="fa-solid fa-circle-check" style="color:green;"></i> Unlimited product updates</li>
+            <li><i class="fa-solid fa-circle-check" style="color:grey;"></i> 1GB Cloud storage</li>
+            <li><i class="fa-solid fa-circle-check" style="color:grey;"></i> Email and community support</li>
+          </ul>
+          <a href="#" class="btn btn-light" style="width: 90%; background-color: #23A6F0; border: none;margin-bottom: 20%;">Try for free</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col" style="width: 30%;">
+      <div class="card text-center" style="border-color:#23A6F0; ">
+        <div class="card-header bg-white border-0">
+          <h5 class="fw-bold" style="margin-top: 8%;">PREMIUM</h5>
+          <p class="text-muted" style="width: 40% ; margin: 0 auto;">Organize across all apps by hand</p>
+        </div>
+        <div class="card-body">
+<img src="./imges/price (2).png" alt="">
+          <ul class="list-unstyled mb-4">
+            <li><i class="fa-solid fa-circle-check" style="color:green;"></i> Unlimited product updates</li>
+            <li><i class="fa-solid fa-circle-check" style="color:green;"></i> Unlimited product updates</li>
+            <li><i class="fa-solid fa-circle-check" style="color:green;"></i> Unlimited product updates</li>
+            <li><i class="fa-solid fa-circle-check" style="color:grey;"></i> 1GB Cloud storage</li>
+            <li><i class="fa-solid fa-circle-check" style="color:grey;"></i>  Email and community support</li>
+          </ul>
+          <a href="#" class="btn btn-primary" style="width: 90%; background-color: #23A6F0; border: none;  margin:7% 0 ;">Try for free</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="continer" style="width: 100%; height: auto; display: flex; align-items: center;justify-content: center;  background-color: #252B42; ">
+    <div class="continer_main" style="width: 75%; display: flex;align-items: center;justify-content: space-between;">
+      <div class="continer_title d-flex mt-5 mb-5 ">
+        <div class="title">
+        <h1 class="title_h1 " style="color: white;">Get In Touch</h1>
+        <p class="title_p " style="width: 55%; color: white;">The gradual accumulation of information about atomic and 
+          small-scale behaviour during the first quarter of the 20th </p>
+        </div>
+        <div class="search d-flex align-items-center">
+<form class="row g-">
+  <div class="col-auto" style=" display: flex;">
+    <label for="inputPassword2" class="visually-hidden">username</label>
+    <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+ 
+  <div class="col-auto" style=" display: flex;align-items:center;justify-content: center;">
+    <button type="submit" class="btn btn-primary ">subcribe</button>
+  </div>
+</div>
+</form>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  
+  <footer>
+    <div class="footer" style=" width: 100%;  display: flex;align-items: center;justify-content: center; margin: 5% 0;">
+    <div class="futer_main" style=" display: flex; justify-content: space-between; width: 75%;">
+    <div class="footer-title-">
+      <h3>Get In Touch</h3>
+      <p class="footer-title_p" style="width: 80%;">the quick fox jumps over the 
+        lazy dog</p>
+      <div class="icons"  style="display: flex;gap: 20px; ">
+          <a href="#"><i class="fa-brands fa-twitter" style="color:rgb(7, 166, 230);"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram" style="color:rgb(7, 166, 230)"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook" style="color:rgb(7, 166, 230)"></i></a>
+      </div>
+    </div>
+        <div class="footer-title">
+          <ul>
+            <h3 class="h3">Company info</h3>
+            
+                <li><a href="#">About Us</a></li>
+                <li><a href="#" style="">Carrier</a></li>
+                <li><a href="#">We are hiring</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-title">
+          <ul>
+            <h3>Features</h3>
+            
+                <li><a href="#">Business Marketing</a></li>
+                <li><a href="#">User Analytic</a></li>
+                <li><a href="#">Live Chat</a></li>
+                <li><a href="#">Unlimited Support</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="footer-title">
+          <ul>
+            <h3>Resources</h3>
+           
+                <li><a href="#">IOS & Android</a></li>
+                <li><a href="#">Watch a Demo</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">API</a></li>
+            </ul>
+        </div>
+
+    
+    </div>
+  </div>
+<div class="tagi">
+  
+<p class="bnkj" style="display: flex;align-items: center ;justify-content: center; background-color:#FAFAFA; height: 7vh; ">Made With Love By Figmaland All Right Reserved </p>
+
+
+</footer>
+
+
+
+<!-- <div class="text-center mb-5 mt-3">
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden"></span>
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
